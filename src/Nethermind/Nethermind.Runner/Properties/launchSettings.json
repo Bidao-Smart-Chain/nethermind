@@ -42,6 +42,20 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "Bidao": {
+      "commandName": "Project",
+      "commandLineArgs": "-c bidao -dd %NETHERMIND_DATA_DIR% --JsonRpc.Enabled true",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Bidao (archive)": {
+      "commandName": "Project",
+      "commandLineArgs": "-c bidao_archive -dd %NETHERMIND_DATA_DIR% --JsonRpc.Enabled true",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
     "Goerli": {
       "commandName": "Project",
       "commandLineArgs": "-c goerli -dd %NETHERMIND_DATA_DIR%",

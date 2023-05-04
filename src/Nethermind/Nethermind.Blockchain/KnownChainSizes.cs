@@ -42,6 +42,7 @@ namespace Nethermind.Blockchain
             { BlockchainIds.EnergyWeb, new SizeInfo(15300.MB(), 15.MB(), new DateTime(2021, 12, 7)) },
             { BlockchainIds.Volta, new SizeInfo(17500.MB(), 10.MB(), new DateTime(2021, 11, 7)) },
             { BlockchainIds.PoaCore, new SizeInfo(13900.MB(), 4.MB(), new DateTime(2021, 12, 7)) },
+            { BlockchainIds.Bidao, new SizeInfo(12000.MB(), 40.MB(), new DateTime(2022, 12, 7)) },
         };
     }
 }

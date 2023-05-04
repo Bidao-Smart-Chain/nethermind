@@ -39,6 +39,7 @@ namespace Nethermind.Core
         public const int Chiado = 10200;
         public const int Volta = 73799;
         public const int Sepolia = 11155111;
+        public const int Bidao = 2119209;
 
         public static string GetBlockchainName(ulong networkId)
         {
@@ -61,6 +62,7 @@ namespace Nethermind.Core
                 Chiado => nameof(Chiado),
                 Volta => nameof(Volta),
                 Sepolia => nameof(Sepolia),
+                Bidao => nameof(Bidao),
                 _ => networkId.ToString()
             };
         }
